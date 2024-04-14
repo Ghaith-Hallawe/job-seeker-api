@@ -1,5 +1,4 @@
-# earnlab_BE
-
+# Job seeker api
 
 ## Database migrations
 - Create database based in the environment for development (earnlab_dev), for testing (earnlab_test), for production (earnlab_prod)
