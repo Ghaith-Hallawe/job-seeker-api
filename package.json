@@ -1,7 +1,7 @@
 {
-  "name": "earnlab_be",
+  "name": "job_seek_back",
   "version": "1.0.0",
-  "description": "To make it easy for you to get started with GitLab, here's a list of recommended next steps.",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "ts-node-dev ./server/server.ts",
@@ -10,16 +10,8 @@
     "seed": "ts-node ./src/seeds",
     "test": "jest"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://gitlab.com/earnlab1/earnlab_be.git"
-  },
-  "author": "",
+  "author": "Ghaith Hallawe",
   "license": "ISC",
-  "bugs": {
-    "url": "https://gitlab.com/earnlab1/earnlab_be/issues"
-  },
-  "homepage": "https://gitlab.com/earnlab1/earnlab_be#readme",
   "keywords": [],
   "dependencies": {
     "@aws-sdk/client-s3": "^3.405.0",
