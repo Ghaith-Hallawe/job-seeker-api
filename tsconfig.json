@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "esModuleInterop": true,
+    "target": "ES2019",
+    "allowJs": false,
+    "strictNullChecks": true,
+    "noImplicitAny": false,
+    "strict": true,
+    "strictFunctionTypes": false,
+    "noImplicitThis": false,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "sourceMap": true,
+    "outDir": "build",
+    "baseUrl": ".",
+    "paths": {
+      "*": ["node_modules/*", "src/types/*"]
+    }
+  },
+  "include": [
+    "app/**/*",
+    "config/**/*",
+    "router/**/*",
+    "database/**/*",
+    "tests/**/*",
+    "server/**/*",
+    "jest.config.js"
+  ]
+}
