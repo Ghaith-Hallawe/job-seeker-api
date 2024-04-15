@@ -1,6 +1,6 @@
 # Job seeker api
 
-Project based strucutre for creating an app to connect a company with a job seeker.
+Node JS project based structure for creating an app to connect a company with a job seeker.
 
 ## Database migrations
 - Create database based in the environment for development (job_seek_dev), for testing (job_seek_test), for production (job_seek_prod)
